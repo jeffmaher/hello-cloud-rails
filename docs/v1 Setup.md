@@ -8,6 +8,13 @@
         - SQLite db (local)
         - Puma application server
 
+## Pre-requisites
+
+- Docker is installed and started (local Terminal commands executed in Docker Quickstart Terminal)
+- Docker Hub account is created and logged into
+- Git is installed
+- AWS account is created
+
 ## Create App Server AMI
 
 1. Locally, run the following Terminal commands
@@ -75,3 +82,7 @@
 1. Stop the Instance being used (and wait for it to stop)
 1. Choose Actions, choose Images > Create Image
 1. Name it `hello-cloud-rails-v1`
+
+## Create CloudFormation script
+
+_In progress_
