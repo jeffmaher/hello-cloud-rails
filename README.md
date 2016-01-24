@@ -1,3 +1,5 @@
+**WORK IN PROGRESS**: Most of this doesn't work yet.
+
 # hello-cloud-rails
 
 A dummy application to use to build a sample AWS infrastructure
