@@ -19,7 +19,7 @@ ENV GIT_REPO_URL="https://github.com/plusjeff/hello-cloud-rails.git"
 RUN git clone $GIT_REPO_URL $APP_DIR
 WORKDIR $APP_DIR
 RUN git fetch
-RUN git checkout production
+RUN git checkout v1
 
 # Install dependencies
 RUN bundle install
